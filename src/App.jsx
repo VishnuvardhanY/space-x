@@ -2,7 +2,7 @@ import React from "react";
 function App() {
   return (
     <div className="App">
-      Space-x
+      <h1>Welcome to space-x</h1>
     </div>
   );
 }
