@@ -1,8 +1,11 @@
 import React from "react";
+import { Header } from "./components/Header/Header";
+import './style.css';
+
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to space-x</h1>
+      <Header/>
     </div>
   );
 }
