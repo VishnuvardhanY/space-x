@@ -1,0 +1,34 @@
+.launch{
+    height: 210px;
+    width :1000px;
+    display: flex;
+    box-shadow: 1px 2px 9px 1px darkgray;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.launch img{
+    width: 200px;
+    height:200px;
+    padding: 5px;
+}
+
+
+.content .info{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+
+.content p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height:30px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 5px;
+}
